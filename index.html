@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mozworks - Excelência em Soluções Digitais. Formação em Excel, Office, Suporte Técnico e consultoria digital.">
+    <title>Mozworks - Excelência em Soluções Digitais</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-brain"></i>
+                <span>Mozworks</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#services" class="nav-link">Serviços</a></li>
+                <li><a href="#solutions" class="nav-link">Soluções</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="https://wa.me/258851947269" class="cta-button">
+                    <i class="fab fa-whatsapp"></i>
+                    Começar
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Excelência Digital</span>
+                    <span class="title-line accent">Para o Futuro</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Soluções tecnológicas inovadoras que transformam negócios e carreiras. 
+                    Do básico ao avançado, capacitamos você para o sucesso digital.
+                </p>
+                <div class="hero-actions">
+                    <a href="#services" class="btn btn-primary">
+                        <span>Explorar Serviços</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="https://wa.me/258851947269" class="btn btn-secondary">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Falar com Especialista</span>
+                    </a>
+                </div>
+                <div class="hero-scroll">
+                    <div class="scroll-indicator"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Serviços Premium</h2>
+                <p>Soluções completas para suas necessidades digitais</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Excel Avançado</h3>
+                    <p>Domine análise de dados, dashboards e automação com projetos reais</p>
+                    <div class="service-features">
+                        <span>Power Query & DAX</span>
+                        <span>Dashboard Profissional</span>
+                        <span>Projetos Práticos</span>
+                    </div>
+                    <div class="service-price">2.500 MZN</div>
+                    <button class="service-cta" data-service="Excel Avançado">
+                        <i class="fab fa-whatsapp"></i>
+                        Saber Mais
+                    </button>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="service-badge">Mais Popular</div>
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Office Completo</h3>
+                    <p>Pacote completo Word, Excel, PowerPoint com aplicações reais</p>
+                    <div class="service-features">
+                        <span>3 Ferramentas</span>
+                        <span>Material Completo</span>
+                        <span>Suporte 360°</span>
+                    </div>
+                    <div class="service-price">6.000 MZN</div>
+                    <button class="service-cta" data-service="Office Completo">
+                        <i class="fab fa-whatsapp"></i>
+                        Escolher Plano
+                    </button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Suporte Técnico</h3>
+                    <p>Soluções rápidas para problemas técnicos e otimização de sistemas</p>
+                    <div class="service-features">
+                        <span>Atendimento Imediato</span>
+                        <span>Remoto ou Presencial</span>
+                        <span>Garantia Incluída</span>
+                    </div>
+                    <div class="service-price">1.500 MZN/h</div>
+                    <button class="service-cta" data-service="Suporte Técnico">
+                        <i class="fab fa-whatsapp"></i>
+                        Solicitar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Showcase -->
+    <section id="solutions" class="solutions">
+        <div class="container">
+            <div class="section-header">
+                <h2>Soluções Personalizadas</h2>
+                <p>Resultados reais para desafios específicos</p>
+            </div>
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Estudantes">
+                    </div>
+                    <div class="solution-content">
+                        <h3>Para Estudantes</h3>
+                        <p>Preparação completa para o mercado de trabalho com habilidades Office essenciais</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Preços especiais para estudantes</li>
+                            <li><i class="fas fa-check"></i> Horários flexíveis</li>
+                            <li><i class="fas fa-check"></i> Foco em empregabilidade</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="solution-card reverse">
+                    <div class="solution-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Empresas">
+                    </div>
+                    <div class="solution-content">
+                        <h3>Para Empresas</h3>
+                        <p>Capacitação de equipas e soluções digitais para crescimento organizacional</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Formação em grupo</li>
+                            <li><i class="fas fa-check"></i> Consultoria personalizada</li>
+                            <li><i class="fas fa-check"></i> Planos corporativos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre Nós</h2>
+                <p>Conheça a Mozworks e nossa missão</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Excelência em Soluções Digitais</h3>
+                    <p>A Mozworks nasceu da paixão por tecnologia e educação, com o objetivo de capacitar pessoas e empresas para o futuro digital.</p>
+                    <p>Nossa missão é fornecer soluções tecnológicas inovadoras que transformam negócios e carreiras, do básico ao avançado.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Estudantes Formados</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Empresas Atendidas</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">98%</div>
+                            <div class="stat-label">Satisfação dos Clientes</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Equipe Mozworks">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contacto</h2>
+                <p>Estamos prontos para ajudar no seu projeto</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Vamos Conversar</h3>
+                    <p>Tem uma ideia ou projeto? Entre em contacto connosco e vamos transformá-lo em realidade.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>+258 85 194 7269</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@mozworks.co.mz</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localização</h4>
+                                <p>Maputo, Moçambique</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Seu email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Seu telefone">
+                        </div>
+                        <div class="form-group">
+                            <select id="service" required>
+                                <option value="">Selecione um serviço</option>
+                                <option value="Excel Avançado">Excel Avançado</option>
+                                <option value="Office Completo">Office Completo</option>
+                                <option value="Suporte Técnico">Suporte Técnico</option>
+                                <option value="Outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Sua mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-brain"></i>
+                        <span>Mozworks</span>
+                    </div>
+                    <p>Excelência em soluções digitais para pessoas e empresas.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#services">Excel Avançado</a></li>
+                        <li><a href="#services">Office Completo</a></li>
+                        <li><a href="#services">Suporte Técnico</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Mozworks. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Popup Modal -->
+    <div class="popup-overlay" id="popup">
+        <div class="popup-content">
+            <div class="popup-close" id="closePopup">
+                <i class="fas fa-times"></i>
+            </div>
+            
+            <div class="popup-image">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Oferta Especial" id="popupImg">
+            </div>
+
+            <div class="popup-body">
+                <div class="popup-header">
+                    <div class="popup-icon" id="popupIcon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h2 id="popupTitle">Desconto Especial</h2>
+                </div>
+                
+                <p class="popup-message" id="popupMessage">
+                    Oportunidade única para transformar suas habilidades digitais
+                </p>
+
+                <div class="popup-benefits" id="popupBenefits">
+                    <div class="benefit-item">
+                        <i class="fas fa-check"></i>
+                        <span>Material completo incluído</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-check"></i>
+                        <span>Suporte personalizado</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-check"></i>
+                        <span>Acesso vitalício</span>
+                    </div>
+                </div>
+
+                <div class="popup-cta">
+                    <div class="popup-timer">
+                        <i class="fas fa-bolt"></i>
+                        <span>Oferta por tempo limitado</span>
+                    </div>
+                    <a href="#" class="popup-button" id="popupWhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                        Garantir Vaga
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/258851947269" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span>Vamos conversar</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
